@@ -1,0 +1,108 @@
+html, body {
+  height: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 0; }
+
+body {
+  width: 100%;
+  margin: 0;
+  font-weight: 100;
+  font-family: 'Lato'; }
+
+a {
+  color: white;
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px red inset; }
+
+header {
+  height: 10%;
+  background-color: rgba(0, 0, 0, 0.85);
+  box-shadow: 0px 0px 3px 1px #000;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+
+header span {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-size: 2em;
+  color: white; }
+
+header img {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80%;
+  width: 80%;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  margin: 5px; }
+
+header #logout {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  margin-right: 10px; }
+
+#submit_logout {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: none;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end; }
+
+#container {
+  height: 90%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+nav {
+  background-color: red; }
+
+#cross {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin: 10px 10px 0 0; }
+
+#open {
+  display: none;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  margin-right: 1%; }
+
+/*# sourceMappingURL=home.css.map */
